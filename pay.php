@@ -12,18 +12,17 @@ $api = new Instamojo\Instamojo(API_KEY, AUTH_TOKEN, 'https://test.instamojo.com/
 $orderid=$_POST["order_id"];
 $amount=$_POST["price"];
 $email=$_POST["emailid"];
-$phone=$_POST["phoneno"];
-$qnty=$_POST["qnty"];
+$phone=$_POST["phone"];
 $price=$_POST["price"];
-
-$custid="rajnish";
+$price=$_POST["name"];
+$custid="name";
 //storing details in session
 
 $_SESSION["orderid"]=$orderid;
 $_SESSION["amount"]=$amount;
 $_SESSION["email"]=$email;
 $_SESSION["phone"]=$phone;
-$_SESSION["custid"]=$custid;
+$_SESSION["name"]=$custid;
 
 //1. payment request creation
 try {
@@ -33,7 +32,7 @@ try {
         "phone" => $phone,
         "send_email" => true,
         "email" => $email,
-        "redirect_url" => "http://localhost:8282/Paymentgatway/instamojo_youtube/success.php"
+        "redirect_url" => "https://waviest-slope.000webhostapp.com/success.php"
         ));
 $url=$response["longurl"];
    header("location:$url");

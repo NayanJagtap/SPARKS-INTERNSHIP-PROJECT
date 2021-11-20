@@ -27,12 +27,13 @@ echo('Failed');
 else
 {
    //sending data to database
+
 $orderid=$_SESSION["orderid"];
 $custid=$_SESSION["custid"];
 $amount=$_SESSION["amount"];
 $paymode=$response["payment"]["instrument_type"];
 
-$query="INSERT INTO `purchase`(`orderid`, `paymentid`, `custid`, `amount`, `paymentmode`, `txnstatus`) VALUES ('$orderid','$payment_id','$custid','$amount','$paymode','$status')";
+$query="INSERT INTO `donation`(`orderid`, `paymentid`, `custid`, `amount`, `paymentmode`, `txnstatus`) VALUES ('$orderid','$payment_id','$custid','$amount','$paymode','$status')";
 
 if(mysqli_query($conn,$query)){
     

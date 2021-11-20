@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+.forms{
+position: absolute;
+left:0.5%;
+width:69.5%;
+height:900px;
+background-image:radial-gradient(yellow,rgb(165, 138, 0));
+}
+
+#formplate{
+  margin-left: 30px;
+}
+#header{
+  position:absolute;
+  top:10%;
+  left:40rem;
+  font-family: 'Monoton', cursive;
+  font-size: 40px;
+}
+#smile{
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  font-size: 30px;
+
+}
+#h3{
+  margin-left: 30px;
+}
+#button{
+position: relative;
+left:35%;
+margin-bottom: 30px;
+}
+body{
+  height:900px;
+}
+#sparkslogo{
+  position: relative;
+  left: 2%;
+}
+#sparkslogoo{
+  width:20rem;
+  height:150px;
+  position:absolute;
+  top:10%;
+}
+#email{
+  text-decoration: none;
+}
+#navbar{
+  display:flex;
+  flex-wrap: nowrap;
+  background-image:radial-gradient(yellow,rgb(165, 138, 0));
+  height:30%;
+}
+#x{
+  width: 70%;
+}
+.sideimage{
+  position:absolute;
+  left:70%;
+  top:40%;
+  right:0%;
+}
+#sideimage{
+  height:900px;
+  width:98%;
+}
+#gift{
+  height:100px;
+  width:100px;
+  position: absolute;
+  left:20%;
+  top:50%;
+  
+ 
+}
+#giftword{
+  font-family: 'Damion', cursive;
+  position: absolute;
+  top:40%;
+  left:20%;
+  font-size: 30px;
+}
+#phonenumber{
+  position: absolute;
+  top:30%;
+  left:35%;
+  height:5%;
+  width:18%;
+  background-image: radial-gradient(yellow,orange);
+  border-radius: 30px;
+}
+#emailid{
+  position: absolute;
+  top:30%;
+  left:75%;
+  height:5%;
+  width:20%;
+  background-image: radial-gradient(yellow,orange);
+  border-radius: 30px;
+}
+#phonenumberword{
+  position: absolute;
+  top:17%;
+  left:35%;
+  font-size: 30px;
+  width:30%;
+  font-family: 'Damion', cursive;
+  
+}
+#emailidword{
+  position: absolute;
+  top:17%;
+  left:80%;
+  font-size: 30px;
+  font-family: 'Damion', cursive;
+
+}
+
+#cards{
+ size:40px;}
+
+#price{
+  position: absolute;
+  top:70%;
+  left:20%;
+  font-size: 30px;
+  background-image: radial-gradient(yellow,orange);
+  border-radius: 30px;
+  text-align: center;
+}
+#donationword{
+  position: absolute;
+  top:58%;
+  left:20%;
+  font-size: 30px;
+  font-family: 'Damion', cursive;
+}
+#pay{
+  position: absolute;
+  top:80%;
+  left:30%;
+  width: 120px;
+  border-radius: 40px;
+  height:49px;
+  background-image: radial-gradient(yellow,orange);
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: 'Damion', cursive;
+}
+#pay:hover{
+  width:150px;
+  height:65px;
+}
+#name{
+  height:5%;
+  width:12rem;
+  position: absolute;
+  top:30%;
+  left:2%;
+  font-size: 20px;
+  background-image: radial-gradient(yellow,orange);
+  border-radius: 30px;
+ 
+}
+#nameword{
+  position: absolute;
+  top:17%;
+  left:2%;
+  font-size: 30px;
+  font-family: 'Damion', cursive;
+}
+
+#hr{
+  background:goldenrod;
+  padding:0%;
+  margin:0;
+}
+#marquee{
+    font-family: 'Damion', cursive;
+    font-size:36px;
+    color:red;
+    position:absolute;
+    top:22rem;
+        
+
+    
+}
+
+
+
+
+@media screen and (max-width:460px) {
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+.forms{
+position: absolute;
+left:1.7%;
+width:96.5%;
+height:90rem;
+background-image:radial-gradient(yellow,rgb(165, 138, 0));
+}
+
+#formplate{
+  margin-left: 30px;
+}
+#header{
+  position:relative;
+  top:50%;
+  left:0.2rem;
+  font-family: 'Monoton', cursive;
+  font-size: 30px;
+}
+#smile{
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  font-size: 30px;
+
+}
+#h3{
+  margin-left: 30px;
+}
+#button{
+position: relative;
+left:8rem;
+margin-bottom: 30px;
+}
+body{
+  height:900px;
+}
+#sparkslogo{
+  position: relative;
+  left: 3%;
+}
+#sparkslogoo{
+  width: 18rem;
+  height:150px;
+  position:absolute;
+  top:10%;
+}
+#email{
+  text-decoration: none;
+}
+#navbar{
+  background-image:radial-gradient(yellow,rgb(165, 138, 0));
+  height:40%;
+  width:100%;
+  margin:0px;
+  
+
+}
+#x{
+  width: 70%;
+}
+.sideimage{
+  position:absolute;
+  left:3rem;
+  top:40rem;
+}
+#sideimage{
+  height:400px;
+  width:90%;
+}
+#gift{
+  height:100px;
+  width:100px;
+  position: absolute;
+  left:8rem;
+  top:69.5rem;
+  
+}
+#giftword{
+  font-family: 'Damion', cursive;
+  position: absolute;
+  top:65rem;
+  left:1rem;
+  font-size: 30px;
+}
+#phonenumber{
+  position: absolute;
+  top:52rem;
+  left:8rem;
+  height:3rem;
+  background-image: radial-gradient(yellow,orange);
+  border-radius: 30px;
+  width:12rem;
+}
+#emailid{
+  position: absolute;
+  top:59rem;
+  left:8rem;
+  height:3rem;
+  width:12rem;
+  background-image: radial-gradient(yellow,orange);
+  border-radius: 30px;
+}
+#phonenumberword{
+  position: absolute;
+  top:47rem;
+  left:8rem;
+  font-size: 30px;
+  font-family: 'Damion', cursive;
+  display: flex;
+  
+}
+#emailidword{
+  position: absolute;
+  top:54rem;
+  left:8rem;
+  font-size: 30px;
+  font-family: 'Damion', cursive;
+
+}
+#cards{
+ size:40px;}
+
+#price{
+  position: absolute;
+  top:79rem;
+  left:8rem;
+  font-size: 30px;
+  background-image: radial-gradient(yellow,orange);
+  border-radius: 30px;
+  text-align: center;
+  width:12rem;
+}
+#donationword{
+  position: absolute;
+  top:73rem;
+  left:1rem;
+  font-size: 30px;
+  font-family: 'Damion', cursive;
+}
+#pay{
+  position: absolute;
+  top:83rem;
+  left:8rem;
+  width: 120px;
+  border-radius: 40px;
+  height:49px;
+  background-image: radial-gradient(yellow,orange);
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: 'Damion', cursive;
+}
+#pay:hover{
+  width:150px;
+  height:65px;
+}
+#name{
+  height:3rem;
+  width:12rem;
+  position: absolute;
+  top:45rem;
+  left:8rem;
+  font-size: 20px;
+  background-image: radial-gradient(yellow,orange);
+  border-radius: 30px;
+ 
+}
+#nameword{
+  position: absolute;
+  top:40rem;
+  left:8rem;
+  font-size: 30px;
+  font-family: 'Damion', cursive;
+}
+
+#hr{
+  background:goldenrod;
+  padding:0%;
+  margin:0;
+}
+#marquee{
+  color:red;
+  font-size: 25px;
+  font-family: 'Damion', cursive;
+  position: absolute;
+  top:62rem;
+  width:95%;
+
+
+}
+  
+}
